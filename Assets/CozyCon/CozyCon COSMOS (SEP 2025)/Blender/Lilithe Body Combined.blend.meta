@@ -3,7 +3,12 @@ guid: 937f1b8ac5430b448a37f2e5864249ac
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lilithe Bunny Atlas
+    second: {fileID: 2100000, guid: ced06710f1041f247a89e2b2ee5828b7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
