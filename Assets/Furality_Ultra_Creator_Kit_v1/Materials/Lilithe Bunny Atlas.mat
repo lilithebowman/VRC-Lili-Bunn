@@ -12,7 +12,6 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - USE_DETAIL_MAPS
   - USE_OCCLUSION_MAP
   m_InvalidKeywords:
   - _NORMALMAP
@@ -93,7 +92,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
-    - _Culling: 2
+    - _Culling: 0
     - _Cutoff: 0.5
     - _DetailHueShift: 0
     - _DetailMaskChannel: 3
