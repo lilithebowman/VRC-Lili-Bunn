@@ -12,6 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - USE_DETAIL_MAPS
   - USE_OCCLUSION_MAP
   m_InvalidKeywords:
   - _NORMALMAP
@@ -30,11 +31,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 8577a8d4098415740949e31639815e2b, type: 3}
+        m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
-        m_Texture: {fileID: 2800000, guid: caac053503764b747817d1811fe46690, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
@@ -96,7 +97,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailHueShift: 0
     - _DetailMaskChannel: 3
-    - _DetailMode: 0
+    - _DetailMode: 1
     - _DetailNormalMapScale: 1
     - _DetailUV: 0
     - _DstBlend: 0
