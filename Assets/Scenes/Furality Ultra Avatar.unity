@@ -233,7 +233,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1483776381}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0aac9c6e4d35c7d45bae250db966004f,
         type: 3}
@@ -267,7 +271,7 @@ MonoBehaviour:
   blueprintId: avtr_d94598af-e478-46c9-ab48-5ff2d40665e4
   contentType: 0
   assetBundleUnityVersion: 
-  fallbackStatus: 1
+  fallbackStatus: 3
 --- !u!114 &319979459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -654,6 +658,86 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!4 &1284140851 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0aac9c6e4d35c7d45bae250db966004f,
+    type: 3}
+  m_PrefabInstance: {fileID: 319979456}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1483776380
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1284140851}
+    m_Modifications:
+    - target: {fileID: 1227330909385755637, guid: 9f8fef6a5494d444c9165fb462015da2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: 9f8fef6a5494d444c9165fb462015da2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: 9f8fef6a5494d444c9165fb462015da2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: 9f8fef6a5494d444c9165fb462015da2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: 9f8fef6a5494d444c9165fb462015da2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: 9f8fef6a5494d444c9165fb462015da2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: 9f8fef6a5494d444c9165fb462015da2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: 9f8fef6a5494d444c9165fb462015da2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: 9f8fef6a5494d444c9165fb462015da2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755637, guid: 9f8fef6a5494d444c9165fb462015da2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227330909385755638, guid: 9f8fef6a5494d444c9165fb462015da2,
+        type: 3}
+      propertyPath: m_Name
+      value: GogoLoco All (VRCFury)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9f8fef6a5494d444c9165fb462015da2, type: 3}
+--- !u!4 &1483776381 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1227330909385755637, guid: 9f8fef6a5494d444c9165fb462015da2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1483776380}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1621626501
 GameObject:
   m_ObjectHideFlags: 0
