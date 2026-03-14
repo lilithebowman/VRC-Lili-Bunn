@@ -247,8 +247,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   colliders: []
-  limitType: 0
-  maxAngleX: 45
+  limitType: 1
+  maxAngleX: 15
   maxAngleXCurve:
     serializedVersion: 2
     m_Curve: []
@@ -1206,13 +1206,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1621626501}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0, y: 0.97908103, z: 0.20347081, w: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -23.48, y: 180, z: 0}
 --- !u!4 &1679733254 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3054414645473197255, guid: 0aac9c6e4d35c7d45bae250db966004f,
@@ -1237,18 +1237,89 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 319979456}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1679733258 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8277155719031144766, guid: 0aac9c6e4d35c7d45bae250db966004f,
-    type: 3}
-  m_PrefabInstance: {fileID: 319979456}
+--- !u!1 &1735761565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1679733259 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -4460322475019445678, guid: 0aac9c6e4d35c7d45bae250db966004f,
-    type: 3}
-  m_PrefabInstance: {fileID: 319979456}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1735761567}
+  - component: {fileID: 1735761566}
+  m_Layer: 0
+  m_Name: TempCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!20 &1735761566
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735761565}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.007479401
+  far clip plane: 1495.8802
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 8400000, guid: abbe9332cbff4a143812d98775e04a72, type: 2}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1735761567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1735761565}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0011431385, y: 0.9987731, z: -0.04028268, w: 0.028780878}
+  m_LocalPosition: {x: -0.09973749, y: 1.2633307, z: 0.7351857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2012540453 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -7666065977625010174, guid: 0aac9c6e4d35c7d45bae250db966004f,
@@ -1309,16 +1380,10 @@ MonoBehaviour:
   - {fileID: 2012540453}
   - {fileID: 2012540455}
   - {fileID: 2012540454}
-  - {fileID: 1679733259}
-  - {fileID: 1679733258}
-  - {fileID: 1679733257}
-  - {fileID: 1679733256}
   - {fileID: 1679733255}
   - {fileID: 1679733254}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1679733257}
+  - {fileID: 1679733256}
   ignoreOtherPhysBones: 1
   endpointPosition: {x: 0, y: 0, z: 0}
   multiChildType: 0
@@ -1378,8 +1443,8 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   colliders: []
-  limitType: 0
-  maxAngleX: 45
+  limitType: 1
+  maxAngleX: 33
   maxAngleXCurve:
     serializedVersion: 2
     m_Curve: []
@@ -1458,3 +1523,4 @@ SceneRoots:
   - {fileID: 1621626504}
   - {fileID: 693813604}
   - {fileID: 319979456}
+  - {fileID: 1735761567}
