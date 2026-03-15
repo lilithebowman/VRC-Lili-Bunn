@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ClothingAtlas
-  m_Shader: {fileID: 4800000, guid: 051a0ed2f2aedd741aa8186ae92f97e0, type: 3}
+  m_Shader: {fileID: 4800000, guid: e765db0afa7ecfc44ade2e4e2491f65a, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:

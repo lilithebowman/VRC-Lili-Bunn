@@ -1285,7 +1285,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.007479401
+  near clip plane: 0.01
   far clip plane: 1495.8802
   field of view: 60
   orthographic: 0
@@ -1444,7 +1444,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   colliders: []
   limitType: 1
-  maxAngleX: 33
+  maxAngleX: 8
   maxAngleXCurve:
     serializedVersion: 2
     m_Curve: []
