@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1802845, g: 0.22571497, b: 0.3069231, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028429, g: 0.22571471, b: 0.30692247, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -239,7 +239,7 @@ MonoBehaviour:
     allowSelf: 1
     allowOthers: 1
     contentTypes: -1
-  radius: 0
+  radius: 0.0005
   radiusCurve:
     serializedVersion: 2
     m_Curve: []
@@ -293,7 +293,7 @@ MonoBehaviour:
     contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
-  maxStretch: 0
+  maxStretch: 1000
   maxStretchCurve:
     serializedVersion: 2
     m_Curve: []
@@ -425,8 +425,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
         type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[6]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[11]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[19]
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[22]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[27]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[28]
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -960,7 +1000,7 @@ MonoBehaviour:
     allowSelf: 1
     allowOthers: 1
     contentTypes: -1
-  radius: 0
+  radius: 0.0005
   radiusCurve:
     serializedVersion: 2
     m_Curve: []
@@ -1014,7 +1054,7 @@ MonoBehaviour:
     contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
-  maxStretch: 0
+  maxStretch: 1000
   maxStretchCurve:
     serializedVersion: 2
     m_Curve: []
@@ -1435,7 +1475,7 @@ MonoBehaviour:
     allowSelf: 1
     allowOthers: 1
     contentTypes: -1
-  radius: 0
+  radius: 0.0001
   radiusCurve:
     serializedVersion: 2
     m_Curve: []
@@ -1489,7 +1529,7 @@ MonoBehaviour:
     contentTypes: -1
   snapToHand: 0
   grabMovement: 0.5
-  maxStretch: 0
+  maxStretch: 1000
   maxStretchCurve:
     serializedVersion: 2
     m_Curve: []
