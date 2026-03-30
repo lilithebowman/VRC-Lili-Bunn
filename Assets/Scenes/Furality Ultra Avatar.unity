@@ -455,6 +455,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
         type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[20]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[22]
       value: 0
       objectReference: {fileID: 0}
@@ -635,7 +640,7 @@ MonoBehaviour:
         left: {x: 0, y: 0, z: 0, w: 0}
         right: {x: 0, y: 0, z: 0, w: 0}
     eyelidsSkinnedMesh: {fileID: 319979462}
-    eyelidsBlendshapes: 13000000ffffffffffffffff
+    eyelidsBlendshapes: 14000000ffffffffffffffff
   customizeAnimationLayers: 0
   baseAnimationLayers:
   - isEnabled: 0
