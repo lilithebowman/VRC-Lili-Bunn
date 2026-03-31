@@ -221,6 +221,11 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 1.5793395e-20
       objectReference: {fileID: 0}
+    - target: {fileID: -2323873384017244527, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[21]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0aac9c6e4d35c7d45bae250db966004f,
         type: 3}
       propertyPath: m_Name
@@ -243,12 +248,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
         type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[3]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[6]
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[11]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[13]
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
@@ -264,6 +279,16 @@ PrefabInstance:
     - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[22]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[23]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[25]
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
