@@ -2,9 +2,6 @@ Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Action.controller:
 * Imported from Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/Controllers/vrc_AvatarV3ActionLayer.controller
 * Merged in 3 layers and 65 parameters from controller (generated) (Copied from GoLocoActionWD/GoLocoActionWD)
 
-Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Additive.controller:
-* Created fresh
-
 Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Base.controller:
 * Imported from Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/Controllers/vrc_AvatarV3LocomotionLayer.controller
 * Merged in 3 layers and 75 parameters from controller (generated) (Copied from GoLocoBaseWD/GoLocoBaseWD)
