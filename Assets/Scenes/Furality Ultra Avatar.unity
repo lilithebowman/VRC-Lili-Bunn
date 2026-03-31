@@ -223,6 +223,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2323873384017244527, guid: 0aac9c6e4d35c7d45bae250db966004f,
         type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7ffe78d1c7618a844a80c6f5f759be9d, type: 2}
+    - target: {fileID: -2323873384017244527, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[21]
       value: 0
       objectReference: {fileID: 0}
@@ -341,7 +346,7 @@ MonoBehaviour:
   blueprintId: avtr_d94598af-e478-46c9-ab48-5ff2d40665e4
   contentType: 0
   assetBundleUnityVersion: 
-  fallbackStatus: 2
+  fallbackStatus: 3
 --- !u!114 &319979459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -362,7 +367,7 @@ MonoBehaviour:
   lipSyncJawBone: {fileID: 0}
   lipSyncJawClosed: {x: 0, y: 0, z: 0, w: 1}
   lipSyncJawOpen: {x: 0, y: 0, z: 0, w: 1}
-  VisemeSkinnedMesh: {fileID: 319979462}
+  VisemeSkinnedMesh: {fileID: 319979460}
   MouthOpenBlendShapeName: Facial_Blends.Jaw_Down
   VisemeBlendShapes:
   - vrc.v_sil
@@ -455,12 +460,22 @@ MonoBehaviour:
         linked: 1
         left: {x: 0, y: 0, z: 0, w: 0}
         right: {x: 0, y: 0, z: 0, w: 0}
-    eyelidsSkinnedMesh: {fileID: 319979462}
+    eyelidsSkinnedMesh: {fileID: 0}
     eyelidsBlendshapes: 13000000ffffffffffffffff
   customizeAnimationLayers: 0
   baseAnimationLayers:
   - isEnabled: 0
     type: 0
+    animatorController: {fileID: 0}
+    mask: {fileID: 0}
+    isDefault: 1
+  - isEnabled: 0
+    type: 2
+    animatorController: {fileID: 0}
+    mask: {fileID: 0}
+    isDefault: 1
+  - isEnabled: 0
+    type: 3
     animatorController: {fileID: 0}
     mask: {fileID: 0}
     isDefault: 1
@@ -606,7 +621,7 @@ MonoBehaviour:
     height: 0
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!137 &319979462 stripped
+--- !u!137 &319979460 stripped
 SkinnedMeshRenderer:
   m_CorrespondingSourceObject: {fileID: 1630794972795428178, guid: 0aac9c6e4d35c7d45bae250db966004f,
     type: 3}
