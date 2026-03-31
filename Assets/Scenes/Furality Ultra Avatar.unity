@@ -456,7 +456,7 @@ MonoBehaviour:
         left: {x: 0, y: 0, z: 0, w: 0}
         right: {x: 0, y: 0, z: 0, w: 0}
     eyelidsSkinnedMesh: {fileID: 319979462}
-    eyelidsBlendshapes: 14000000ffffffffffffffff
+    eyelidsBlendshapes: 13000000ffffffffffffffff
   customizeAnimationLayers: 0
   baseAnimationLayers:
   - isEnabled: 0
