@@ -12,7 +12,7 @@ AnimatorController:
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: '[VF32] Base Mask'
-    m_StateMachine: {fileID: 6228137844855846495}
+    m_StateMachine: {fileID: 738645832347208184}
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -22,7 +22,7 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1107 &6228137844855846495
+--- !u!1107 &738645832347208184
 AnimatorStateMachine:
   serializedVersion: 6
   m_ObjectHideFlags: 1
