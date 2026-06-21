@@ -19,7 +19,7 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 0
-  - name: VF 3.10.2
+  - name: VF 3.10.4
     valueType: 2
     saved: 0
     defaultValue: 0
@@ -29,6 +29,11 @@ MonoBehaviour:
     saved: 0
     defaultValue: 0
     networkSynced: 0
+  - name: VF106_OpenBadge
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
   - name: Go/VRCEmote
     valueType: 0
     saved: 0
@@ -114,3 +119,13 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 0
+  - name: VF107_Badge/Contact Off
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1
+  - name: VF108_Badge/Off
+    valueType: 2
+    saved: 1
+    defaultValue: 0
+    networkSynced: 1

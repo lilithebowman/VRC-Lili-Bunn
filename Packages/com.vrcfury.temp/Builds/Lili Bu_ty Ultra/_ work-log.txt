@@ -28,10 +28,15 @@ Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Default_ParticleSystem
 
 Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury FX.controller:
 * Created fresh
+* Merged in 3 layers and 2 parameters from controller (generated) (Copied from BadgeFX/BadgeFX)
 
 Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset:
 * Created fresh
+* Merged menu (generated) (BadgeMain) with 1 root controls
 * Merged menu (generated) (GoAllMainMenu) with 1 root controls
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (Badge):
+* Created fresh
 
 Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco »  » Seated):
 * Created fresh
@@ -96,6 +101,7 @@ Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco)
 Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Params.asset:
 * Created fresh
 * Created new expression parameters asset
+* Merged in 1 expression parameters from Assets/Badge/Menus/Contact Attempt/BadgeParams.asset
 * Merged in 17 expression parameters from Assets/GoGo/GoLoco/MainMenu/GoAllParameters.asset
 
 Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Sitting.controller:

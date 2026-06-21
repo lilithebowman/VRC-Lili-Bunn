@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8002189062490225294
+--- !u!114 &-8099942939133058491
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -97,1098 +97,7 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
---- !u!114 &-5319101562672525665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: "GoGo Loco \xBB GoGo Loco By Franada \xBB  \xBB  \xBB .dup.1 \xBB "
-  m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: <b>
-    icon: {fileID: 2800000, guid: ff9b8b025ba5bb640a521fa998bef328, type: 3}
-    type: 102
-    parameter:
-      name: Go/CrouchIdle
-    value: 8
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: fb76feaed81172c49a33c7e3df8fa18f, type: 3}
-    type: 102
-    parameter:
-      name: Go/CrouchIdle
-    value: 11
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 4bcb92d6c8192e1448d96a9b4eb81059, type: 3}
-    type: 102
-    parameter:
-      name: Go/CrouchIdle
-    value: 13
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 36cc7556cdf6fd744aaca149061240ec, type: 3}
-    type: 102
-    parameter:
-      name: Go/CrouchIdle
-    value: 14
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: e01c5f7f66556b24597c80f4d9f9b02f, type: 3}
-    type: 102
-    parameter:
-      name: Go/CrouchIdle
-    value: 15
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 36cc7556cdf6fd744aaca149061240ec, type: 3}
-    type: 102
-    parameter:
-      name: Go/CrouchIdle
-    value: 16
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
---- !u!114 &-4906204288589291526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: "GoGo Loco \xBB GoGo Loco By Franada \xBB  \xBB  \xBB .dup.2 \xBB "
-  m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: <b>
-    icon: {fileID: 2800000, guid: a2be67d3874a8d34cb42b378f77fcc12, type: 3}
-    type: 102
-    parameter:
-      name: Go/ProneIdle
-    value: 9
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: c50c0a0d1ceb4bb48a11c48a8d9d8e61, type: 3}
-    type: 102
-    parameter:
-      name: Go/ProneIdle
-    value: 8
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: f2a74b0bb447c3e4db5da795f6797dc2, type: 3}
-    type: 102
-    parameter:
-      name: Go/ProneIdle
-    value: 10
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
---- !u!114 &-4425143829785155749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: GoGo Loco
-  m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: ' '
-    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 255
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: ' '
-    icon: {fileID: 2800000, guid: d1f849c6aff267a4fb2a0712006769ab, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: -3662728584821229320}
-    subParameters: []
-    labels: []
-  - name: ' '
-    icon: {fileID: 2800000, guid: bd13635d8c263bf48918dd1af297350a, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: 5525826280326696512}
-    subParameters: []
-    labels: []
-  - name: <b><size=23><line-height=100%><voffset=24.5em>GoGo Loco By Franada
-    icon: {fileID: 2800000, guid: 712238f917172e24081f7eede9f36482, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: 2925872294661341089}
-    subParameters: []
-    labels: []
-  - name: ' '
-    icon: {fileID: 2800000, guid: 0b4191a7105ff614b862ec6feeffbbd2, type: 3}
-    type: 101
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: ' '
-    icon: {fileID: 2800000, guid: ceba2f3a07b3b2a41ba5d1e496fa5be5, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 125
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/Float
-    labels: []
-  - name: ' '
-    icon: {fileID: 2800000, guid: acd93fff024c649408e9f21737626b70, type: 3}
-    type: 102
-    parameter:
-      name: Go/Stationary
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
---- !u!114 &-3751527480838017891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: "GoGo Loco \xBB .dup.1 \xBB .dup.1"
-  m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: <b>
-    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 255
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 33e3d961275e78d49a11a21ee354349f, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 0
-    style: 0
-    subMenu: {fileID: 1143356190873854843}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 9653063fecfd8e44087445ff938450cd, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 247
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 84f9f436500cf0148a4f898cbadc62bb, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 246
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: a861d02b09dc9f544b4c5ca8660ff001, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 245
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: ad8b22d3261804642b62ea4647f744d9, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 244
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/PoseRadial
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: ceba2f3a07b3b2a41ba5d1e496fa5be5, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 125
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/Float
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: acd93fff024c649408e9f21737626b70, type: 3}
-    type: 102
-    parameter:
-      name: Go/Stationary
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
---- !u!114 &-3662728584821229320
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: "GoGo Loco \xBB "
-  m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: <b>Standing
-    icon: {fileID: 2800000, guid: 1a77a0f1648c2a24ea5fce984325606f, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: -1348416089656901378}
-    subParameters: []
-    labels: []
-  - name: <b>Seated
-    icon: {fileID: 2800000, guid: 65e831e88cf89b94d9088dffb9ef13e9, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 11
-    style: 0
-    subMenu: {fileID: 4596424202035960880}
-    subParameters: []
-    labels: []
-  - name: <b>T Spin
-    icon: {fileID: 2800000, guid: d3ded104301318544a7b22cbba98ff51, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 18
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/Float
-    labels: []
-  - name: <b>T Pose
-    icon: {fileID: 2800000, guid: 16e11dcded7de5c4fb0f365271ca543d, type: 3}
-    type: 102
-    parameter:
-      name: Go/VRCEmote
-    value: 17
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>Knockback
-    icon: {fileID: 2800000, guid: 1fa53c971aacb6743b1c8ef1c6aa61dc, type: 3}
-    type: 102
-    parameter:
-      name: Go/VRCEmote
-    value: 19
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
---- !u!114 &-2881450608998949963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: "GoGo Loco \xBB GoGo Loco By Franada \xBB  \xBB  \xBB "
-  m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: <b>
-    icon: {fileID: 2800000, guid: 16e11dcded7de5c4fb0f365271ca543d, type: 3}
-    type: 102
-    parameter:
-      name: Go/StandIdle
-    value: 3
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>Widest
-    icon: {fileID: 2800000, guid: 3c8f034d0a852284aa1a5462bac87942, type: 3}
-    type: 102
-    parameter:
-      name: Go/StandIdle
-    value: 2
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>Wide
-    icon: {fileID: 2800000, guid: 3c8f034d0a852284aa1a5462bac87942, type: 3}
-    type: 102
-    parameter:
-      name: Go/StandIdle
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>Default
-    icon: {fileID: 2800000, guid: 3c8f034d0a852284aa1a5462bac87942, type: 3}
-    type: 102
-    parameter:
-      name: Go/StandIdle
-    value: 0
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
---- !u!114 &-2643520719764413084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: "GoGo Loco \xBB GoGo Loco By Franada \xBB  \xBB .dup.1"
-  m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: <b>
-    icon: {fileID: 2800000, guid: 6f3721b6f9f0aaa47abc7b85626f1093, type: 3}
-    type: 102
-    parameter:
-      name: Go/VRCEmote
-    value: 114
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: aa236a84e73f71740bf2ba844e661294, type: 3}
-    type: 102
-    parameter:
-      name: Go/VRCEmote
-    value: 113
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: c670e6b06f0f5584b947a197c288ddb6, type: 3}
-    type: 102
-    parameter:
-      name: Go/VRCEmote
-    value: 112
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 0b4191a7105ff614b862ec6feeffbbd2, type: 3}
-    type: 101
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 72a42c6de69edeb44a908a847276b09b, type: 3}
-    type: 201
-    parameter:
-      name: Go/VRCEmote
-    value: 116
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/PuppetX
-    - name: Go/PuppetY
-    labels:
-    - name: 
-      icon: {fileID: 0}
-    - name: 
-      icon: {fileID: 0}
-    - name: 
-      icon: {fileID: 0}
-    - name: 
-      icon: {fileID: 0}
-  - name: <b>
-    icon: {fileID: 2800000, guid: 950d152c5e3c76a4ba0f780d328e6aa3, type: 3}
-    type: 102
-    parameter:
-      name: Go/VRCEmote
-    value: 115
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: bb89f909002c67344be5354f35527719, type: 3}
-    type: 102
-    parameter:
-      name: Go/Swimming
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
---- !u!114 &-1482532792275330929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: "GoGo Loco \xBB GoGo Loco By Franada \xBB  \xBB  \xBB .dup.2"
-  m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: <b>
-    icon: {fileID: 2800000, guid: 33e3d961275e78d49a11a21ee354349f, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 0
-    style: 0
-    subMenu: {fileID: -4906204288589291526}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: e846673c3faa0c240a111fe5b92b45ee, type: 3}
-    type: 102
-    parameter:
-      name: Go/ProneIdle
-    value: 7
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 2506f3038f200784080815ab53c3a103, type: 3}
-    type: 102
-    parameter:
-      name: Go/ProneIdle
-    value: 6
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: db13352f1dd08994097f5a5dd13b0295, type: 3}
-    type: 102
-    parameter:
-      name: Go/ProneIdle
-    value: 5
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: ad8b22d3261804642b62ea4647f744d9, type: 3}
-    type: 102
-    parameter:
-      name: Go/ProneIdle
-    value: 4
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 5fd07127713c0e14ab781bd8bbdc7e56, type: 3}
-    type: 102
-    parameter:
-      name: Go/ProneIdle
-    value: 3
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 84f9f436500cf0148a4f898cbadc62bb, type: 3}
-    type: 102
-    parameter:
-      name: Go/ProneIdle
-    value: 2
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: a861d02b09dc9f544b4c5ca8660ff001, type: 3}
-    type: 102
-    parameter:
-      name: Go/ProneIdle
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
---- !u!114 &-1348416089656901378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: "GoGo Loco \xBB  \xBB Standing"
-  m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: <b>Wave
-    icon: {fileID: 2800000, guid: 09459a5d31265654996b8133887f72ad, type: 3}
-    type: 102
-    parameter:
-      name: Go/VRCEmote
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>Clap
-    icon: {fileID: 2800000, guid: 17eb531e2fcc4e24ba2fac0e81cf95d1, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 2
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/Float
-    labels: []
-  - name: <b>Point
-    icon: {fileID: 2800000, guid: 3e5fca93e549ecf479dd48b611166058, type: 3}
-    type: 102
-    parameter:
-      name: Go/VRCEmote
-    value: 3
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>Cheer
-    icon: {fileID: 2800000, guid: a19f71d2a99002644b8e21992a574a75, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 4
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/Float
-    labels: []
-  - name: <b>Dance
-    icon: {fileID: 2800000, guid: 97da1fba8b93cb84fbc2af98424b9b74, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 5
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/Float
-    labels: []
-  - name: <b>Backflip
-    icon: {fileID: 2800000, guid: 508a7207cb36c454aa9b45761a49ede3, type: 3}
-    type: 102
-    parameter:
-      name: Go/VRCEmote
-    value: 6
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>Sad
-    icon: {fileID: 2800000, guid: ea32523783b6c88408fe3a4f22be6643, type: 3}
-    type: 102
-    parameter:
-      name: Go/VRCEmote
-    value: 7
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>Die
-    icon: {fileID: 2800000, guid: 2aaae44285eeff64c8465d13ea5b7996, type: 3}
-    type: 102
-    parameter:
-      name: Go/VRCEmote
-    value: 8
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: VRCFury Menu
-  m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: <b>GoGo Loco
-    icon: {fileID: 2800000, guid: 712238f917172e24081f7eede9f36482, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: -4425143829785155749}
-    subParameters: []
-    labels: []
---- !u!114 &127429911062191604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: "GoGo Loco \xBB GoGo Loco By Franada \xBB "
-  m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: <b>
-    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 255
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: d330693a3b47d0b4681e311dee4c8d78, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 0
-    style: 0
-    subMenu: {fileID: 3802128736383605005}
-    subParameters: []
-    labels: []
-  - name: <b>Hovering
-    icon: {fileID: 2800000, guid: 6aff8c9bd0d75834d8a4f4f416bd4f30, type: 3}
-    type: 102
-    parameter:
-      name: Go/StandType
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: feda1ceec9254414cab80c7c8822c9e7, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 254
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: bc9c5d874603ea94eb9fc4f79dc7193e, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 125
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/Height
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 27e1e9d1648bd024aaef6aa24d8e2a40, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: -2643520719764413084}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: acd93fff024c649408e9f21737626b70, type: 3}
-    type: 102
-    parameter:
-      name: Go/Stationary
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
---- !u!114 &1143356190873854843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: "GoGo Loco \xBB .dup.1 \xBB .dup.1 \xBB "
-  m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: <b>
-    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 255
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: e846673c3faa0c240a111fe5b92b45ee, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 232
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/PoseRadial
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 5633d40ca1d169b429c7c726711fc243, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 233
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/PoseRadial
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: e1a78f80c3f80854db6e250069ec1024, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 230
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: db13352f1dd08994097f5a5dd13b0295, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 231
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 2506f3038f200784080815ab53c3a103, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 229
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: ceba2f3a07b3b2a41ba5d1e496fa5be5, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 125
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/Float
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: acd93fff024c649408e9f21737626b70, type: 3}
-    type: 102
-    parameter:
-      name: Go/Stationary
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
---- !u!114 &1498549067994313023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: "GoGo Loco \xBB .dup.1 \xBB .dup.2"
-  m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: <b>
-    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 255
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 33e3d961275e78d49a11a21ee354349f, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 0
-    style: 0
-    subMenu: {fileID: 3760271467241578184}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: fbfd4f6a7a7f58543ac1f98bc3d17969, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 240
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/PoseRadial
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: abab9e05cd0fedd4fa010e2b25cf73a7, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 241
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/PoseRadial
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 47e7ff1736e2f774db796f3f91a2fc29, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 242
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 72ac855eefc56a348ad19e6f2f88be45, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 243
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: ceba2f3a07b3b2a41ba5d1e496fa5be5, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 125
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/Float
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: acd93fff024c649408e9f21737626b70, type: 3}
-    type: 102
-    parameter:
-      name: Go/Stationary
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
---- !u!114 &2925872294661341089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: "GoGo Loco \xBB GoGo Loco By Franada"
-  m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: <b>
-    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 255
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: b70a17b54af6d1848a6ec26aefae0efa, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 255
-    style: 0
-    subMenu: {fileID: 127429911062191604}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: f7434a87cdacd2d48b092fa883555667, type: 3}
-    type: 102
-    parameter:
-      name: Go/Locomotion
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: aae16ec46e06b7745940743025f6eeb1, type: 3}
-    type: 102
-    parameter:
-      name: Go/VRCEmote
-    value: 101
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 53b70f60be157624bb5e86bb4a864450, type: 3}
-    type: 102
-    parameter:
-      name: Go/Jump&Fall
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: ceba2f3a07b3b2a41ba5d1e496fa5be5, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 125
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/Float
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: acd93fff024c649408e9f21737626b70, type: 3}
-    type: 102
-    parameter:
-      name: Go/Stationary
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
---- !u!114 &3760271467241578184
+--- !u!114 &-6255466939767602648
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1287,7 +196,255 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
---- !u!114 &3802128736383605005
+--- !u!114 &-5801474782902668967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "GoGo Loco \xBB GoGo Loco By Franada \xBB  \xBB  \xBB "
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: <b>
+    icon: {fileID: 2800000, guid: 16e11dcded7de5c4fb0f365271ca543d, type: 3}
+    type: 102
+    parameter:
+      name: Go/StandIdle
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>Widest
+    icon: {fileID: 2800000, guid: 3c8f034d0a852284aa1a5462bac87942, type: 3}
+    type: 102
+    parameter:
+      name: Go/StandIdle
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>Wide
+    icon: {fileID: 2800000, guid: 3c8f034d0a852284aa1a5462bac87942, type: 3}
+    type: 102
+    parameter:
+      name: Go/StandIdle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>Default
+    icon: {fileID: 2800000, guid: 3c8f034d0a852284aa1a5462bac87942, type: 3}
+    type: 102
+    parameter:
+      name: Go/StandIdle
+    value: 0
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &-5330472707594603559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "GoGo Loco \xBB  \xBB Standing"
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: <b>Wave
+    icon: {fileID: 2800000, guid: 09459a5d31265654996b8133887f72ad, type: 3}
+    type: 102
+    parameter:
+      name: Go/VRCEmote
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>Clap
+    icon: {fileID: 2800000, guid: 17eb531e2fcc4e24ba2fac0e81cf95d1, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/Float
+    labels: []
+  - name: <b>Point
+    icon: {fileID: 2800000, guid: 3e5fca93e549ecf479dd48b611166058, type: 3}
+    type: 102
+    parameter:
+      name: Go/VRCEmote
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>Cheer
+    icon: {fileID: 2800000, guid: a19f71d2a99002644b8e21992a574a75, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/Float
+    labels: []
+  - name: <b>Dance
+    icon: {fileID: 2800000, guid: 97da1fba8b93cb84fbc2af98424b9b74, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/Float
+    labels: []
+  - name: <b>Backflip
+    icon: {fileID: 2800000, guid: 508a7207cb36c454aa9b45761a49ede3, type: 3}
+    type: 102
+    parameter:
+      name: Go/VRCEmote
+    value: 6
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>Sad
+    icon: {fileID: 2800000, guid: ea32523783b6c88408fe3a4f22be6643, type: 3}
+    type: 102
+    parameter:
+      name: Go/VRCEmote
+    value: 7
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>Die
+    icon: {fileID: 2800000, guid: 2aaae44285eeff64c8465d13ea5b7996, type: 3}
+    type: 102
+    parameter:
+      name: Go/VRCEmote
+    value: 8
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &-3082033297523753574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "GoGo Loco \xBB .dup.1 \xBB .dup.2"
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: <b>
+    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 255
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 33e3d961275e78d49a11a21ee354349f, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 0
+    style: 0
+    subMenu: {fileID: -6255466939767602648}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: fbfd4f6a7a7f58543ac1f98bc3d17969, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 240
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/PoseRadial
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: abab9e05cd0fedd4fa010e2b25cf73a7, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 241
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/PoseRadial
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 47e7ff1736e2f774db796f3f91a2fc29, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 242
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 72ac855eefc56a348ad19e6f2f88be45, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 243
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: ceba2f3a07b3b2a41ba5d1e496fa5be5, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 125
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/Float
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: acd93fff024c649408e9f21737626b70, type: 3}
+    type: 102
+    parameter:
+      name: Go/Stationary
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &-2059253377919026191
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1308,7 +465,7 @@ MonoBehaviour:
       name: 
     value: 1
     style: 0
-    subMenu: {fileID: -2881450608998949963}
+    subMenu: {fileID: -5801474782902668967}
     subParameters: []
     labels: []
   - name: <b>
@@ -1318,7 +475,7 @@ MonoBehaviour:
       name: Go/VRCEmote
     value: 119
     style: 0
-    subMenu: {fileID: 5940426658068915034}
+    subMenu: {fileID: 8556468045986749904}
     subParameters: []
     labels: []
   - name: <b>
@@ -1328,7 +485,7 @@ MonoBehaviour:
       name: Go/VRCEmote
     value: 119
     style: 0
-    subMenu: {fileID: -1482532792275330929}
+    subMenu: {fileID: 4002882655439651020}
     subParameters: []
     labels: []
   - name: <b>
@@ -1371,7 +528,1020 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
---- !u!114 &4596424202035960880
+--- !u!114 &-1105388113848230571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "GoGo Loco \xBB .dup.1 \xBB .dup.1"
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: <b>
+    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 255
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 33e3d961275e78d49a11a21ee354349f, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 0
+    style: 0
+    subMenu: {fileID: -63727597397726874}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 9653063fecfd8e44087445ff938450cd, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 247
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 84f9f436500cf0148a4f898cbadc62bb, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 246
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: a861d02b09dc9f544b4c5ca8660ff001, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 245
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: ad8b22d3261804642b62ea4647f744d9, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 244
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/PoseRadial
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: ceba2f3a07b3b2a41ba5d1e496fa5be5, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 125
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/Float
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: acd93fff024c649408e9f21737626b70, type: 3}
+    type: 102
+    parameter:
+      name: Go/Stationary
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &-559015637077678779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: GoGo Loco
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: ' '
+    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 255
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: ' '
+    icon: {fileID: 2800000, guid: d1f849c6aff267a4fb2a0712006769ab, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 8266586702071300807}
+    subParameters: []
+    labels: []
+  - name: ' '
+    icon: {fileID: 2800000, guid: bd13635d8c263bf48918dd1af297350a, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 882422115552765620}
+    subParameters: []
+    labels: []
+  - name: <b><size=23><line-height=100%><voffset=24.5em>GoGo Loco By Franada
+    icon: {fileID: 2800000, guid: 712238f917172e24081f7eede9f36482, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 4339923338405698505}
+    subParameters: []
+    labels: []
+  - name: ' '
+    icon: {fileID: 2800000, guid: 0b4191a7105ff614b862ec6feeffbbd2, type: 3}
+    type: 101
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: ' '
+    icon: {fileID: 2800000, guid: ceba2f3a07b3b2a41ba5d1e496fa5be5, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 125
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/Float
+    labels: []
+  - name: ' '
+    icon: {fileID: 2800000, guid: acd93fff024c649408e9f21737626b70, type: 3}
+    type: 102
+    parameter:
+      name: Go/Stationary
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &-63727597397726874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "GoGo Loco \xBB .dup.1 \xBB .dup.1 \xBB "
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: <b>
+    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 255
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: e846673c3faa0c240a111fe5b92b45ee, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 232
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/PoseRadial
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 5633d40ca1d169b429c7c726711fc243, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 233
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/PoseRadial
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: e1a78f80c3f80854db6e250069ec1024, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 230
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: db13352f1dd08994097f5a5dd13b0295, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 231
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 2506f3038f200784080815ab53c3a103, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 229
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: ceba2f3a07b3b2a41ba5d1e496fa5be5, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 125
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/Float
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: acd93fff024c649408e9f21737626b70, type: 3}
+    type: 102
+    parameter:
+      name: Go/Stationary
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: VRCFury Menu
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: Badge
+    icon: {fileID: 0}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 6628659994044397189}
+    subParameters: []
+    labels: []
+  - name: <b>GoGo Loco
+    icon: {fileID: 2800000, guid: 712238f917172e24081f7eede9f36482, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: -559015637077678779}
+    subParameters: []
+    labels: []
+--- !u!114 &255189021089105238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "GoGo Loco \xBB .dup.1 \xBB "
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: <b>
+    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 255
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 33e3d961275e78d49a11a21ee354349f, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 0
+    style: 0
+    subMenu: {fileID: -8099942939133058491}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: fb76feaed81172c49a33c7e3df8fa18f, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 253
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/PoseRadial
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 1d28e89a22a99604ca11b356a094fe45, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 252
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 65f68912cf6722d41ad88c407b75244b, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 251
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 093bca7f33c70a349b58c3227cad5a2d, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 249
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: ceba2f3a07b3b2a41ba5d1e496fa5be5, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 125
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/Float
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: acd93fff024c649408e9f21737626b70, type: 3}
+    type: 102
+    parameter:
+      name: Go/Stationary
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &882422115552765620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "GoGo Loco \xBB .dup.1"
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: <b>
+    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 255
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 65e831e88cf89b94d9088dffb9ef13e9, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 255189021089105238}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: d9fa9f8e28a985d499f27f4efb420868, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: -1105388113848230571}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 8bf2719fccf203f458694fe629c9a4d2, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: -3082033297523753574}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 6e914a2a89b7944448cf6977578a2ac5, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 127
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: ceba2f3a07b3b2a41ba5d1e496fa5be5, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 125
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/Float
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: dd5a7e4ba5dd14e488bc338aa572df8d, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 126
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &2247476493033324831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "GoGo Loco \xBB GoGo Loco By Franada \xBB  \xBB .dup.1"
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: <b>
+    icon: {fileID: 2800000, guid: 6f3721b6f9f0aaa47abc7b85626f1093, type: 3}
+    type: 102
+    parameter:
+      name: Go/VRCEmote
+    value: 114
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: aa236a84e73f71740bf2ba844e661294, type: 3}
+    type: 102
+    parameter:
+      name: Go/VRCEmote
+    value: 113
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: c670e6b06f0f5584b947a197c288ddb6, type: 3}
+    type: 102
+    parameter:
+      name: Go/VRCEmote
+    value: 112
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 0b4191a7105ff614b862ec6feeffbbd2, type: 3}
+    type: 101
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 72a42c6de69edeb44a908a847276b09b, type: 3}
+    type: 201
+    parameter:
+      name: Go/VRCEmote
+    value: 116
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/PuppetX
+    - name: Go/PuppetY
+    labels:
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+    - name: 
+      icon: {fileID: 0}
+  - name: <b>
+    icon: {fileID: 2800000, guid: 950d152c5e3c76a4ba0f780d328e6aa3, type: 3}
+    type: 102
+    parameter:
+      name: Go/VRCEmote
+    value: 115
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: bb89f909002c67344be5354f35527719, type: 3}
+    type: 102
+    parameter:
+      name: Go/Swimming
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &2470298416979472181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "GoGo Loco \xBB GoGo Loco By Franada \xBB "
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: <b>
+    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 255
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: d330693a3b47d0b4681e311dee4c8d78, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 0
+    style: 0
+    subMenu: {fileID: -2059253377919026191}
+    subParameters: []
+    labels: []
+  - name: <b>Hovering
+    icon: {fileID: 2800000, guid: 6aff8c9bd0d75834d8a4f4f416bd4f30, type: 3}
+    type: 102
+    parameter:
+      name: Go/StandType
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: feda1ceec9254414cab80c7c8822c9e7, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 254
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: bc9c5d874603ea94eb9fc4f79dc7193e, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 125
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/Height
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 27e1e9d1648bd024aaef6aa24d8e2a40, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 2247476493033324831}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: acd93fff024c649408e9f21737626b70, type: 3}
+    type: 102
+    parameter:
+      name: Go/Stationary
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &4002882655439651020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "GoGo Loco \xBB GoGo Loco By Franada \xBB  \xBB  \xBB .dup.2"
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: <b>
+    icon: {fileID: 2800000, guid: 33e3d961275e78d49a11a21ee354349f, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 0
+    style: 0
+    subMenu: {fileID: 7607939505356472682}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: e846673c3faa0c240a111fe5b92b45ee, type: 3}
+    type: 102
+    parameter:
+      name: Go/ProneIdle
+    value: 7
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 2506f3038f200784080815ab53c3a103, type: 3}
+    type: 102
+    parameter:
+      name: Go/ProneIdle
+    value: 6
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: db13352f1dd08994097f5a5dd13b0295, type: 3}
+    type: 102
+    parameter:
+      name: Go/ProneIdle
+    value: 5
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: ad8b22d3261804642b62ea4647f744d9, type: 3}
+    type: 102
+    parameter:
+      name: Go/ProneIdle
+    value: 4
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 5fd07127713c0e14ab781bd8bbdc7e56, type: 3}
+    type: 102
+    parameter:
+      name: Go/ProneIdle
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 84f9f436500cf0148a4f898cbadc62bb, type: 3}
+    type: 102
+    parameter:
+      name: Go/ProneIdle
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: a861d02b09dc9f544b4c5ca8660ff001, type: 3}
+    type: 102
+    parameter:
+      name: Go/ProneIdle
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &4339923338405698505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "GoGo Loco \xBB GoGo Loco By Franada"
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: <b>
+    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
+    type: 101
+    parameter:
+      name: Go/VRCEmote
+    value: 255
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: b70a17b54af6d1848a6ec26aefae0efa, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 255
+    style: 0
+    subMenu: {fileID: 2470298416979472181}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: f7434a87cdacd2d48b092fa883555667, type: 3}
+    type: 102
+    parameter:
+      name: Go/Locomotion
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: aae16ec46e06b7745940743025f6eeb1, type: 3}
+    type: 102
+    parameter:
+      name: Go/VRCEmote
+    value: 101
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 53b70f60be157624bb5e86bb4a864450, type: 3}
+    type: 102
+    parameter:
+      name: Go/Jump&Fall
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: ceba2f3a07b3b2a41ba5d1e496fa5be5, type: 3}
+    type: 203
+    parameter:
+      name: Go/VRCEmote
+    value: 125
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters:
+    - name: Go/Float
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: acd93fff024c649408e9f21737626b70, type: 3}
+    type: 102
+    parameter:
+      name: Go/Stationary
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &6628659994044397189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: Badge
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: OpenBadge
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: VF106_OpenBadge
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Contact Off
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: VF107_Badge/Contact Off
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: Off
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: VF108_Badge/Off
+    value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &7574046350827642992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "GoGo Loco \xBB GoGo Loco By Franada \xBB  \xBB  \xBB .dup.1 \xBB "
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: <b>
+    icon: {fileID: 2800000, guid: ff9b8b025ba5bb640a521fa998bef328, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 8
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: fb76feaed81172c49a33c7e3df8fa18f, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 11
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 4bcb92d6c8192e1448d96a9b4eb81059, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 13
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 36cc7556cdf6fd744aaca149061240ec, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 14
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: e01c5f7f66556b24597c80f4d9f9b02f, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 15
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: 36cc7556cdf6fd744aaca149061240ec, type: 3}
+    type: 102
+    parameter:
+      name: Go/CrouchIdle
+    value: 16
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &7607939505356472682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: "GoGo Loco \xBB GoGo Loco By Franada \xBB  \xBB  \xBB .dup.2 \xBB "
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 0}
+  controls:
+  - name: <b>
+    icon: {fileID: 2800000, guid: a2be67d3874a8d34cb42b378f77fcc12, type: 3}
+    type: 102
+    parameter:
+      name: Go/ProneIdle
+    value: 9
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: c50c0a0d1ceb4bb48a11c48a8d9d8e61, type: 3}
+    type: 102
+    parameter:
+      name: Go/ProneIdle
+    value: 8
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>
+    icon: {fileID: 2800000, guid: f2a74b0bb447c3e4db5da795f6797dc2, type: 3}
+    type: 102
+    parameter:
+      name: Go/ProneIdle
+    value: 10
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &7998792647354484737
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1468,7 +1638,7 @@ MonoBehaviour:
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
---- !u!114 &5525826280326696512
+--- !u!114 &8266586702071300807
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1478,82 +1648,62 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: "GoGo Loco \xBB .dup.1"
+  m_Name: "GoGo Loco \xBB "
   m_EditorClassIdentifier: 
   Parameters: {fileID: 0}
   controls:
-  - name: <b>
-    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
-    type: 101
+  - name: <b>Standing
+    icon: {fileID: 2800000, guid: 1a77a0f1648c2a24ea5fce984325606f, type: 3}
+    type: 103
     parameter:
-      name: Go/VRCEmote
-    value: 255
+      name: 
+    value: 1
     style: 0
-    subMenu: {fileID: 0}
+    subMenu: {fileID: -5330472707594603559}
     subParameters: []
     labels: []
-  - name: <b>
+  - name: <b>Seated
     icon: {fileID: 2800000, guid: 65e831e88cf89b94d9088dffb9ef13e9, type: 3}
     type: 103
     parameter:
       name: 
-    value: 1
+    value: 11
     style: 0
-    subMenu: {fileID: 8318679179554806406}
+    subMenu: {fileID: 7998792647354484737}
     subParameters: []
     labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: d9fa9f8e28a985d499f27f4efb420868, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: -3751527480838017891}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 8bf2719fccf203f458694fe629c9a4d2, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: 1498549067994313023}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 6e914a2a89b7944448cf6977578a2ac5, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 127
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: ceba2f3a07b3b2a41ba5d1e496fa5be5, type: 3}
+  - name: <b>T Spin
+    icon: {fileID: 2800000, guid: d3ded104301318544a7b22cbba98ff51, type: 3}
     type: 203
     parameter:
       name: Go/VRCEmote
-    value: 125
+    value: 18
     style: 0
     subMenu: {fileID: 0}
     subParameters:
     - name: Go/Float
     labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: dd5a7e4ba5dd14e488bc338aa572df8d, type: 3}
-    type: 101
+  - name: <b>T Pose
+    icon: {fileID: 2800000, guid: 16e11dcded7de5c4fb0f365271ca543d, type: 3}
+    type: 102
     parameter:
       name: Go/VRCEmote
-    value: 126
+    value: 17
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
---- !u!114 &5940426658068915034
+  - name: <b>Knockback
+    icon: {fileID: 2800000, guid: 1fa53c971aacb6743b1c8ef1c6aa61dc, type: 3}
+    type: 102
+    parameter:
+      name: Go/VRCEmote
+    value: 19
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+--- !u!114 &8556468045986749904
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1574,7 +1724,7 @@ MonoBehaviour:
       name: 
     value: 0
     style: 0
-    subMenu: {fileID: -5319101562672525665}
+    subMenu: {fileID: 7574046350827642992}
     subParameters: []
     labels: []
   - name: <b>
@@ -1642,102 +1792,6 @@ MonoBehaviour:
     type: 102
     parameter:
       name: Go/CrouchIdle
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
---- !u!114 &8318679179554806406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: "GoGo Loco \xBB .dup.1 \xBB "
-  m_EditorClassIdentifier: 
-  Parameters: {fileID: 0}
-  controls:
-  - name: <b>
-    icon: {fileID: 2800000, guid: 9ba79281b8605e346827315b3ad406cb, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 255
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 33e3d961275e78d49a11a21ee354349f, type: 3}
-    type: 103
-    parameter:
-      name: 
-    value: 0
-    style: 0
-    subMenu: {fileID: -8002189062490225294}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: fb76feaed81172c49a33c7e3df8fa18f, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 253
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/PoseRadial
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 1d28e89a22a99604ca11b356a094fe45, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 252
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 65f68912cf6722d41ad88c407b75244b, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 251
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: 093bca7f33c70a349b58c3227cad5a2d, type: 3}
-    type: 101
-    parameter:
-      name: Go/VRCEmote
-    value: 249
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: ceba2f3a07b3b2a41ba5d1e496fa5be5, type: 3}
-    type: 203
-    parameter:
-      name: Go/VRCEmote
-    value: 125
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters:
-    - name: Go/Float
-    labels: []
-  - name: <b>
-    icon: {fileID: 2800000, guid: acd93fff024c649408e9f21737626b70, type: 3}
-    type: 102
-    parameter:
-      name: Go/Stationary
     value: 1
     style: 0
     subMenu: {fileID: 0}
