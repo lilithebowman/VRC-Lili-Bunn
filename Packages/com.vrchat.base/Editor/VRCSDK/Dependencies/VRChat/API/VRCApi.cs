@@ -275,9 +275,11 @@ namespace VRC.SDKBase.Editor.Api {
             {
                 if (result.Content.Headers.ContentLength > 0)
                 {
+                    string errorContent = null;
                     try
                     {
-                        throw new ApiErrorException(result, await result.Content.ReadAsStringAsync());
+                        errorContent = await result.Content.ReadAsStringAsync();
+                        throw new ApiErrorException(result, errorContent);
                     }
                     catch (ApiErrorException ex)
                     {
@@ -287,13 +289,17 @@ namespace VRC.SDKBase.Editor.Api {
                         {
                             Core.Logger.LogError("Unauthorized, try logging out and in again");
                         }
+                        else if (ex.StatusCode == HttpStatusCode.UnprocessableEntity) // Moderated
+                        {
+                            throw new ApiModeratedException(result, errorContent);
+                        }
                         throw;
                     }
                     catch
                     {
                         // Fall-through to the generic error exception if encountered non-api exception 
                     }
-                    Core.Logger.LogError($"Error data {await result.Content.ReadAsStringAsync()}", API.LOG_CATEGORY);
+                    Core.Logger.LogError($"Error data {errorContent}", API.LOG_CATEGORY);
                 }
                 throw new RequestFailedException($"Failed to perform a request to VRChat API for {uri} and data {JsonConvert.SerializeObject(body, JSON_OPTIONS)}", result, result.StatusCode);
             }
@@ -691,7 +697,7 @@ namespace VRC.SDKBase.Editor.Api {
                 Core.Logger.LogError("Both bundle and image paths must be provided");
                 return data;
             }
-            
+
             var remoteData = await VRCApi.GetAvatar(id, forceRefresh: true, cancellationToken);
             if (!remoteData.PendingUpload)
             {
@@ -785,6 +791,11 @@ namespace VRC.SDKBase.Editor.Api {
             }, forceRefresh: true);
         }
 
+        internal static async Task ContestModeration()
+        {
+            await Post<EmptyResponse, EmptyResponse>("auth/user/moderations/contest", null);
+        }
+
         internal static async Task SubmitAssetReviewNotes(string id, string notes)
         {
             var avatarData = await GetAvatar(id, forceRefresh: true);
@@ -803,10 +814,11 @@ namespace VRC.SDKBase.Editor.Api {
         
         
         
+
         #endregion
 
         #region Public Utilities
-        
+
         [PublicAPI]
         public static async Task<Texture2D> GetImage(string url, bool forceRefresh = false, CancellationToken cancellationToken = default)
         {

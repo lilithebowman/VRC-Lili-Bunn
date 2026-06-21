@@ -37,6 +37,9 @@ namespace VRC.SDK3.Avatars
             //PhysBones
             VRCPhysBoneBase.OnInitialize = PhysBone_OnInitialize;
             VRCPhysBoneColliderBase.OnPreShapeInitialize += PhysBoneCollider_OnPreShapeInitialize;
+
+            //Raycasts (not really part of dynamics, but they still need animator parameters)
+            VRCRaycast.OnInitializeParameters = VRCRaycast_OnInitialize;
         }
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
@@ -50,12 +53,15 @@ namespace VRC.SDK3.Avatars
         private static bool Contact_OnInitialize(ContactBase contact)
         {
             contact.Usage = DynamicsUsage.Avatar;
+            var avatarDesc = contact.GetComponentInParent<VRCAvatarDescriptor>();
 
-            var receiver = contact as ContactReceiver;
-            if (receiver != null && !string.IsNullOrWhiteSpace(receiver.parameter))
+            if (avatarDesc != null)
             {
-                var avatarDesc = receiver.GetComponentInParent<VRCAvatarDescriptor>();
-                if (avatarDesc != null)
+                // Emulate different players for editor testing with multiple avatars in the same scene. Required by Allow Self and Allow Others.
+                contact.playerId = avatarDesc.GetHashCode();
+
+                var receiver = contact as ContactReceiver;
+                if (receiver != null && !string.IsNullOrWhiteSpace(receiver.parameter))
                 {
                     var animator = avatarDesc.GetComponent<Animator>();
                     if (animator != null)
@@ -73,10 +79,13 @@ namespace VRC.SDK3.Avatars
         {
             physBone.Usage = DynamicsUsage.Avatar;
 
-            if (!string.IsNullOrEmpty(physBone.parameter))
+            var avatarDesc = physBone.GetComponentInParent<VRCAvatarDescriptor>();
+            if (avatarDesc != null)
             {
-                var avatarDesc = physBone.GetComponentInParent<VRCAvatarDescriptor>();
-                if (avatarDesc != null)
+                // Emulate different players for editor testing with multiple avatars in the same scene. Required by Allow Self and Allow Others.
+                physBone.playerId = avatarDesc.GetHashCode();
+
+                if (!string.IsNullOrEmpty(physBone.parameter))
                 {
                     var animator = avatarDesc.GetComponent<Animator>();
                     if (animator != null)
@@ -91,9 +100,34 @@ namespace VRC.SDK3.Avatars
             }
         }
 
+        private static void VRCRaycast_OnInitialize(VRCRaycast raycast)
+        {
+            if (!string.IsNullOrEmpty(raycast.Parameter))
+            {
+                var avatarDesc = raycast.GetComponentInParent<VRCAvatarDescriptor>();
+                if (avatarDesc != null)
+                {
+                    var animator = avatarDesc.GetComponent<Animator>();
+                    if (animator != null)
+                    {
+                        raycast.param_Hit = new AnimParameterAccessAvatarSDK(animator, raycast.Parameter + VRCRaycast.PARAM_HIT);
+                        raycast.param_Ratio = new AnimParameterAccessAvatarSDK(animator, raycast.Parameter + VRCRaycast.PARAM_RATIO);
+                        raycast.param_Distance = new AnimParameterAccessAvatarSDK(animator, raycast.Parameter + VRCRaycast.PARAM_DISTANCE);
+                    }
+                }
+            }
+        }
+
         private static void PhysBoneCollider_OnPreShapeInitialize(VRCPhysBoneColliderBase physBoneCollider)
         {
             physBoneCollider.Usage = DynamicsUsage.Avatar;
+
+            var avatarDesc = physBoneCollider.GetComponentInParent<VRCAvatarDescriptor>();
+            if (avatarDesc != null)
+            {
+                // Emulate different players for editor testing with multiple avatars in the same scene. Required by Allow Self and Allow Others.
+                physBoneCollider.playerId = avatarDesc.GetHashCode();
+            }
         }
 
         #region PhysBone Conversion

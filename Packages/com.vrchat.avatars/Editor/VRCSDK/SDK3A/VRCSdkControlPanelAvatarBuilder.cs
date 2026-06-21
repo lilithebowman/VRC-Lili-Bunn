@@ -876,6 +876,26 @@ namespace VRC.SDK3A.Editor
                     }
                 }
 
+                //Global collider count limit
+                VRCPhysBoneColliderBase[] physBoneColliders = avatar.gameObject.GetComponentsInChildren<VRCPhysBoneColliderBase>(true);
+                List<Object> globalColliderObjects = new List<Object>();
+                for (int i = 0; i < physBoneColliders.Length; i++)
+                {
+                    if (physBoneColliders[i].globalCollisionFlags != DynamicsUsageFlags.Nothing)
+                    {
+                        globalColliderObjects.Add(physBoneColliders[i].gameObject);
+                    }
+                }
+                if (globalColliderObjects.Count > AvatarValidation.MAX_AVD_GLOBAL_COLLIDERS_PER_AVATAR)
+                {
+                    _builder.OnGUIError(avatar, $"This avatar contains a total of {globalColliderObjects.Count} global PhysBone colliders, but the maximum number allowed per avatar is {AvatarValidation.MAX_AVD_GLOBAL_COLLIDERS_PER_AVATAR}. " +
+                                                "Reduce the global collider count by switching Global Collision to Nothing.",
+                        () =>
+                        {
+                            Selection.objects = globalColliderObjects.ToArray();
+                        });
+                }
+
                 //Unity constraints upgrade
                 List<IConstraint> unityConstraints = new List<IConstraint>(avatar.gameObject.GetComponentsInChildren<IConstraint>(true));
 
@@ -989,7 +1009,8 @@ namespace VRC.SDK3A.Editor
                 out List<ParticleSystem> autoDestructSystems,
                 out List<ParticleSystem> autoDisableRootSystems,
                 out List<TrailRenderer> autoDestructTrails,
-                out List<ParticleSystem> collisionLayerSystems
+                out List<ParticleSystem> collisionLayerSystems,
+                out List<ParticleSystem> lightSystems
             );
             if (autoDestructSystems.Count > 0)
             {
@@ -1054,6 +1075,21 @@ namespace VRC.SDK3A.Editor
                             {
                                 collisionModule.colliderForce = 0.0f;
                             }
+                        }
+                    });
+            }
+            if (lightSystems.Count > 0)
+            {
+                // Not an error, but warn against this increasing the light count without actually using any light components.
+                _builder.OnGUIWarning(avatar,
+                    "This avatar contains one or more particle systems configured to emit dynamic lights. These lights will be included in the overall Light count for this avatar, which may impact its performance rank. Click Auto Fix to clear lights from these particle systems.",
+                    () => Selection.objects = CreateObjectArray(lightSystems),
+                    () =>
+                    {
+                        foreach (ParticleSystem lightSystem in lightSystems)
+                        {
+                            ParticleSystem.LightsModule lightsModule = lightSystem.lights;
+                            lightsModule.light = null;
                         }
                     });
             }
@@ -1139,7 +1175,7 @@ namespace VRC.SDK3A.Editor
                         show = GetAvatarSubSelectAction<Cloth>(avatar);
                         break;
                     case AvatarPerformanceCategory.LightCount:
-                        show = GetAvatarSubSelectAction<Light>(avatar);
+                        show = GetLightsSelectAction(avatar);
                         break;
                     case AvatarPerformanceCategory.LineRendererCount:
                         show = GetAvatarSubSelectAction<LineRenderer>(avatar);
@@ -1201,6 +1237,9 @@ namespace VRC.SDK3A.Editor
                     case AvatarPerformanceCategory.ConstraintDepth:
                         // Behaves slightly differently from constraint count, we want to select the VRChat constraints at the end of the deepest chain(s) instead.
                         show = AvatarDynamicsSetup.GetDeepestConstraintSubSelection(avatar);
+                        break;
+                    case AvatarPerformanceCategory.RaycastCount:
+                        show = GetAvatarSubSelectAction<VRCRaycast>(avatar);
                         break;
                 }
 
@@ -1444,6 +1483,10 @@ namespace VRC.SDK3A.Editor
                                 _avatarData = await VRCApi.SetAvatarAsFallback(_avatarData.ID, _avatarData);
                                 CurrentFallbackStatus = FallbackStatus.Selected;
                             }
+                            catch (ApiModeratedException e)
+                            {
+                                ShowModeratedNotification(e.Fields);
+                            }
                             catch (ApiErrorException apiError)
                             {
                                 await _builder.ShowBuilderNotification("Failed to set fallback",
@@ -1597,6 +1640,8 @@ namespace VRC.SDK3A.Editor
             _discardChangesButton.clicked -= HandleDiscardChangesClick;
             _saveChangesButton.clicked -= HandleSaveChangesClick;
             _contentWarningsField.OnToggleOption -= HandleToggleTag;
+            _primaryStyleField?.UnregisterValueChangedCallback(HandlePrimaryStyleChange);
+            _secondaryStyleField?.UnregisterValueChangedCallback(HandleSecondaryStyleChange);
             root.schedule.Execute(CheckBlueprintChanges).Pause();
 
             // Load the avatar data
@@ -2150,6 +2195,11 @@ namespace VRC.SDK3A.Editor
                             _avatarUploadCancellationToken);
                     }
                 }
+                catch (ApiModeratedException e)
+                {
+                    ModeratedError(e.Fields, e.ErrorMessage);
+                    return;
+                }
                 catch (ApiErrorException e)
                 {
                     InfoUpdateError(this, e.ErrorMessage);
@@ -2176,9 +2226,30 @@ namespace VRC.SDK3A.Editor
                     Text = "Saving Avatar Changes...",
                     Progress = 1f
                 });
+
                 Core.Logger.Log("Updating avatar");
-                var updatedAvatar = await VRCApi.UpdateAvatarInfo(_avatarData.ID, _avatarData, _avatarUploadCancellationToken);
+                VRCAvatar updatedAvatar;
+                try
+                {
+                    updatedAvatar = await VRCApi.UpdateAvatarInfo(_avatarData.ID, _avatarData, _avatarUploadCancellationToken);
+                }
+                catch (ApiModeratedException e)
+                {
+                    ModeratedError(e.Fields, e.ErrorMessage);
+                    return;
+                }
+                catch (ApiErrorException e)
+                {
+                    InfoUpdateError(this, e.ErrorMessage);
+                    return;
+                }
+                catch (Exception e)
+                {
+                    InfoUpdateError(this, e.Message);
+                    return;
+                }
                 Core.Logger.Log("Updated avatar");
+
                 _avatarData = updatedAvatar;
                 _originalAvatarData = updatedAvatar;
                 _contentWarningsField.OriginalOptions = _originalAvatarData.Tags = new List<string>(_avatarData.Tags ?? new List<string>());
@@ -2793,6 +2864,7 @@ namespace VRC.SDK3A.Editor
             }
 
             VRC_SdkBuilder.shouldBuildUnityPackage = false;
+            VRC_SdkBuilder.SetCurrentBuilder<ISDKAvatarBuilder>();
             VRC_SdkBuilder.ClearCallbacks();
 
             var successTask = new TaskCompletionSource<string>();
@@ -3171,6 +3243,11 @@ namespace VRC.SDK3A.Editor
                     throw await HandleUploadError(new UploadException("Request Cancelled", e));
                 }
             }
+            catch (ApiModeratedException e)
+            {
+                AnalyticsSDK.AvatarUploadFailed(pM.blueprintId, !firstTimeCreation);
+                throw await HandleUploadError(e);
+            }
             catch (ApiErrorException e)
             {
                 AnalyticsSDK.AvatarUploadFailed(pM.blueprintId, !firstTimeCreation);
@@ -3199,6 +3276,9 @@ namespace VRC.SDK3A.Editor
 
         private async Task<Exception> HandleUploadError(Exception exception)
         {
+            if (exception is ApiModeratedException e)
+                ModeratedError(e.Fields, e.Message);
+                
             OnSdkUploadError?.Invoke(this, exception.Message);
             _uploadState = SdkUploadState.Failure;
             OnSdkUploadStateChange?.Invoke(this, _uploadState);
@@ -3221,6 +3301,12 @@ namespace VRC.SDK3A.Editor
 
         private async Task VerifyUploadPermissions()
         {
+            // During multi-platform builds, permissions were already verified on the first platform.
+            // Skip re-checking on subsequent platforms because the assembly reload from a platform
+            // switch can cause APIUser.CurrentUser to be null while the user fetch is still in-flight.
+            if (VRCMultiPlatformBuild.MPB && VRCMultiPlatformBuild.MPBBuiltCount > 0)
+                return;
+
             if (!(APIUser.CurrentUser?.canPublishAvatars ?? false))
             {
                 VRCSdkControlPanel.ShowContentPublishPermissionsDialog();
@@ -3384,7 +3470,11 @@ namespace VRC.SDK3A.Editor
             HandleAvatarSwitch(_visualRoot);
         }
         private async void UploadError(object sender, string error)
-        {
+        { 
+            // Since we only have access to the text of the error here - we short circuit based on that. The actual error notification is handled from `HandleUploadError`
+            if (error.Contains(typeof(ApiModeratedException).Name))
+                return;
+
             Core.Logger.Log("Failed to upload avatar!");
             Core.Logger.LogError(error);
             
@@ -3431,6 +3521,32 @@ namespace VRC.SDK3A.Editor
                 new GenericBuilderNotification(error),
                 "red"
             );
+        }
+
+        private async void ShowModeratedNotification(string[] fields)
+        {
+            await _builder.ShowBuilderNotification(
+                "Content Guidelines Check",
+                new ModeratedNotification(_builder, fields),
+                "white");
+        }
+
+        private async void ModeratedError(string[] fields, string error)
+        {
+            await Task.Delay(100);
+            _builderProgress.SetCancelButtonVisibility(false);
+            _builderProgress.HideProgress();
+            UiEnabled = true;
+            _thumbnail.Loading = false;
+            RevertThumbnail();
+            
+            if (Progress.Exists(_platformProgressId))
+            {
+                Progress.Report(_platformProgressId, 2, 2, error);
+                Progress.Finish(_platformProgressId, Progress.Status.Failed);
+            }
+            
+            ShowModeratedNotification(fields);
         }
         
         private void MultiPlatformUploadError(object sender, string error)
@@ -3575,7 +3691,23 @@ namespace VRC.SDK3A.Editor
 
             if (firstTimeCreation)
             {
-                avatar = await VRCApi.CreateAvatarRecord(avatar, (status, percentage) => { OnSdkUploadProgress?.Invoke(this, (status, percentage)); }, cancellationToken);
+                try
+                {
+                    avatar = await VRCApi.CreateAvatarRecord(avatar, (status, percentage) => { OnSdkUploadProgress?.Invoke(this, (status, percentage)); }, cancellationToken);
+                }
+                catch (ApiModeratedException e)
+                {
+                    throw await HandleUploadError(e);
+                }
+                catch (ApiErrorException e)
+                {
+                    throw await HandleUploadError(new UploadException(e.ErrorMessage, e));
+                }
+                catch (Exception e)
+                {
+                    throw await HandleUploadError(new UploadException(e.Message, e));
+                }
+
                 if (string.IsNullOrEmpty(avatar.ID))
                 {
                     throw await HandleBuildError(new BuilderException("Failed to reserve an avatar ID"));
@@ -3798,6 +3930,36 @@ namespace VRC.SDK3A.Editor
                     if (condition == null || condition(c))
                     {
                         gos.Add(c.gameObject);
+                    }
+                }
+
+                Selection.objects = gos.Count > 0 ? gos.ToArray() : new Object[] {avatar.gameObject};
+            };
+        }
+
+        private static Action GetLightsSelectAction(Component avatar)
+        {
+            return () =>
+            {
+                // Lights need special treatment because they can also be implicitly created via particle systems.
+                // Select both raw Light components and any particle systems configured to create lights.
+                List<Object> gos = new List<Object>();
+
+                List<Light> lightComponents = avatar.gameObject.GetComponentsInChildrenExcludingEditorOnly<Light>(true);
+                foreach (Light lightComponent in lightComponents)
+                {
+                    gos.Add(lightComponent.gameObject);
+                }
+
+                List<ParticleSystem> particleSystemComponents = avatar.gameObject.GetComponentsInChildrenExcludingEditorOnly<ParticleSystem>(true);
+                // list only the offending systems
+                foreach (var particleSystem in particleSystemComponents)
+                {
+                    // Deliberately including disabled lights modules, as they may be animated back on later
+                    bool isLightOffender = particleSystem.lights.light != null && particleSystem.lights.maxLights > 0;
+                    if (isLightOffender)
+                    {
+                        gos.Add(particleSystem.gameObject);
                     }
                 }
 
@@ -4666,13 +4828,15 @@ namespace VRC.SDK3A.Editor
             out List<ParticleSystem> autoDestructSystems,
             out List<ParticleSystem> autoDisableRootSystems,
             out List<TrailRenderer> autoDestructTrails,
-            out List<ParticleSystem> collisionLayerSystems
+            out List<ParticleSystem> collisionLayerSystems,
+            out List<ParticleSystem> lightSystems
         )
         {
             autoDestructSystems = new List<ParticleSystem>();
             autoDisableRootSystems = new List<ParticleSystem>();
             autoDestructTrails = new List<TrailRenderer>();
             collisionLayerSystems = new List<ParticleSystem>();
+            lightSystems = new List<ParticleSystem>();
 
             if (avatar == null)
             {
@@ -4695,6 +4859,13 @@ namespace VRC.SDK3A.Editor
                 if (system.collision.type == ParticleSystemCollisionType.World && system.collision.colliderForce != 0.0f && (system.collision.collidesWith & LayerHelper.Mask_ParticleCollisionForceForbiddenLayerMask) > 0)
                 {
                     collisionLayerSystems.Add(system);
+                }
+
+                // Scan for particle systems producing light. These aren't illegal, but they will contribute to the avatar's light count.
+                // We check to see if a light component is assigned, even if the module is off, as the module might be animated on later.
+                if (system.lights.light != null && system.lights.maxLights > 0)
+                {
+                    lightSystems.Add(system);
                 }
             }
 

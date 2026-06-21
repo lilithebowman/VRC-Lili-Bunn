@@ -1,0 +1,106 @@
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Action.controller:
+* Imported from Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/Controllers/vrc_AvatarV3ActionLayer.controller
+* Merged in 3 layers and 65 parameters from controller (generated) (Copied from GoLocoActionWD/GoLocoActionWD)
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Additive.controller:
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Base.controller:
+* Imported from Packages/com.vrchat.avatars/Samples/AV3 Demo Assets/Animation/Controllers/vrc_AvatarV3LocomotionLayer.controller
+* Merged in 3 layers and 75 parameters from controller (generated) (Copied from GoLocoBaseWD/GoLocoBaseWD)
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Copied from Cull Detect__Cull Detection _ Cull Detection.controller:
+* Imported from Assets/DinoBird/Anims/Cull Detection.controller
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Copied from Idle_Idle _ dinobird_blendshapes.controller:
+* Imported from Assets/DinoBird/Anims/Idle.controller
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Copied from Idle_Idle _ Idle.controller:
+* Imported from Assets/DinoBird/Anims/Idle.controller
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Default_ParticleSystem _ Collision Check.mat:
+* Imported from Resources/unity_builtin_extra (Default-ParticleSystem)
+* Needed to swap texture Default-ParticleSystem to a copy that has mipmap streaming enabled
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Default_ParticleSystem _ion Check_Default_ParticleSystem.asset:
+* Imported from Resources/unity_builtin_extra (Default-ParticleSystem)
+* Needed to enable mipmap streaming on texture to make VRCSDK happy
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury FX.controller:
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset:
+* Created fresh
+* Merged menu (generated) (GoAllMainMenu) with 1 root controls
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco »  » Seated):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco »  » Standing):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » ):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » .dup.1 »  » ):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » .dup.1 » ):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » .dup.1 » .dup.1 » ):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » .dup.1 » .dup.1):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » .dup.1 » .dup.2 » ):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » .dup.1 » .dup.2):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » .dup.1):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » GoGo Loco By Franada »  »  » ):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » GoGo Loco By Franada »  »  » .dup.1 » ):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » GoGo Loco By Franada »  »  » .dup.1):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » GoGo Loco By Franada »  »  » .dup.2 » ):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » GoGo Loco By Franada »  »  » .dup.2):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » GoGo Loco By Franada »  » ):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » GoGo Loco By Franada »  » .dup.1):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » GoGo Loco By Franada » ):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco » GoGo Loco By Franada):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Menu.asset (GoGo Loco):
+* Created fresh
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Params.asset:
+* Created fresh
+* Created new expression parameters asset
+* Merged in 17 expression parameters from Assets/GoGo/GoLoco/MainMenu/GoAllParameters.asset
+
+Packages/com.vrcfury.temp/Builds/Lili Bu_ty Ultra/VRCFury Sitting.controller:
+* Created fresh
+* Merged in 3 layers and 29 parameters from controller (generated) (Copied from GoLocoSittingWD/GoLocoSittingWD)
+
+
+

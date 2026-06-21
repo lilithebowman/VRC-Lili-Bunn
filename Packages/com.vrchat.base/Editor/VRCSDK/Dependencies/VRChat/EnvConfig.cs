@@ -72,6 +72,8 @@ namespace VRC.Editor
             "UnityEngine.XR.OpenXR.OpenXRLoader",
         };
 
+        private const int DefaultShaderChunkSizeMb = 4;
+
         private static bool _requestConfigureSettings = true;
 
         private static readonly Lazy<string> _debugCategoryName = new Lazy<string>(InitializeLogging);
@@ -1102,7 +1104,9 @@ namespace VRC.Editor
 
             NamedBuildTarget namedBuildTarget = NamedBuildTarget.FromBuildTargetGroup(EditorUserBuildSettings.selectedBuildTargetGroup);
             PlayerSettings.SetIl2CppCompilerConfiguration(namedBuildTarget, Il2CppCompilerConfiguration.Release);
-            
+
+            PlayerSettings.SetDefaultShaderChunkSizeInMB(DefaultShaderChunkSizeMb);
+
             XRGeneralSettingsPerBuildTarget generalSettings;
             if (!EditorBuildSettings.TryGetConfigObject(
                     XRGeneralSettings.k_SettingsKey, out generalSettings))
@@ -1254,6 +1258,8 @@ namespace VRC.Editor
             {
                 defines.Remove("VRC_ENABLE_PLAYER_PERSISTENCE");
             }
+
+            definesChanged = Tools.SetupExtraSDKDefines(ref defines, definesChanged);
             
             if(definesChanged)
             {
