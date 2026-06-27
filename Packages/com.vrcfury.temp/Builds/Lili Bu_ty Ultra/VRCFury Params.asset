@@ -129,3 +129,33 @@ MonoBehaviour:
     saved: 1
     defaultValue: 0
     networkSynced: 1
+  - name: VF109_Point Light
+    valueType: 2
+    saved: 0
+    defaultValue: 1
+    networkSynced: 1
+  - name: VF110_Red Team
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: VF111_Blue Team
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: VF112_Green Team
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: VF113_
+    valueType: 2
+    saved: 0
+    defaultValue: 0
+    networkSynced: 1
+  - name: VF115_Dinobird
+    valueType: 2
+    saved: 0
+    defaultValue: 1
+    networkSynced: 1
