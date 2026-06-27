@@ -123,14 +123,385 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &176014021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7038382090663792101, guid: 0aac9c6e4d35c7d45bae250db966004f,
+    type: 3}
+  m_PrefabInstance: {fileID: 319979456}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &176014024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176014021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1286.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 952741749627027463
+  references:
+    version: 2
+    RefIds:
+    - rid: 952741749627027463
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Red Team
+        state:
+          actions:
+          - rid: 952741749627027464
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 952741749627027464
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 176014021}
+        affectAllMeshes: 0
+        propertyName: _EmissionColor
+        propertyType: 1
+        value: 0
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &176014025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176014021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1286.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 952741749627027465
+  references:
+    version: 2
+    RefIds:
+    - rid: 952741749627027465
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Blue Team
+        state:
+          actions:
+          - rid: 952741749627027466
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 952741749627027466
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 176014021}
+        affectAllMeshes: 0
+        propertyName: _EmissionColor
+        propertyType: 1
+        value: 0
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 0, g: 0, b: 1, a: 1}
+--- !u!114 &176014026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176014021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1286.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 952741749627027467
+  references:
+    version: 2
+    RefIds:
+    - rid: 952741749627027467
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Green Team
+        state:
+          actions:
+          - rid: 952741749627027468
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 952741749627027468
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 176014021}
+        affectAllMeshes: 0
+        propertyName: _EmissionColor
+        propertyType: 1
+        value: 0
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 0, g: 1, b: 0, a: 1}
+--- !u!114 &176014027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176014021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1286.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 952741749627027469
+  references:
+    version: 2
+    RefIds:
+    - rid: 952741749627027469
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: 
+        state:
+          actions:
+          - rid: 952741749627027470
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 0
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 952741749627027470
+      type: {class: MaterialPropertyAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 2
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        renderer: {fileID: 0}
+        renderer2: {fileID: 176014021}
+        affectAllMeshes: 0
+        propertyName: _EmissionColor
+        propertyType: 1
+        value: 0
+        valueVector: {x: 0, y: 0, z: 0, w: 0}
+        valueColor: {r: 1, g: 0, b: 1, a: 1}
 --- !u!1001 &183078739
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 319979461}
+    m_TransformParent: {fileID: 1754788892}
     m_Modifications:
+    - target: {fileID: 978230566081628765, guid: c978b786dc6c0494a9e6c48f641c325a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8452552270983261728, guid: c978b786dc6c0494a9e6c48f641c325a,
         type: 3}
       propertyPath: m_Name
@@ -139,37 +510,37 @@ PrefabInstance:
     - target: {fileID: 9081138308055086234, guid: c978b786dc6c0494a9e6c48f641c325a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.23300496
+      value: 0.132
       objectReference: {fileID: 0}
     - target: {fileID: 9081138308055086234, guid: c978b786dc6c0494a9e6c48f641c325a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.10565849
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 9081138308055086234, guid: c978b786dc6c0494a9e6c48f641c325a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.011840992
+      value: 0.134
       objectReference: {fileID: 0}
     - target: {fileID: 9081138308055086234, guid: c978b786dc6c0494a9e6c48f641c325a,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.85973966
+      value: 0.9946657
       objectReference: {fileID: 0}
     - target: {fileID: 9081138308055086234, guid: c978b786dc6c0494a9e6c48f641c325a,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5002075
+      value: 0.0000002384186
       objectReference: {fileID: 0}
     - target: {fileID: 9081138308055086234, guid: c978b786dc6c0494a9e6c48f641c325a,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.051872857
+      value: 0.0000010811551
       objectReference: {fileID: 0}
     - target: {fileID: 9081138308055086234, guid: c978b786dc6c0494a9e6c48f641c325a,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.08915962
+      value: 0.10315161
       objectReference: {fileID: 0}
     - target: {fileID: 9081138308055086234, guid: c978b786dc6c0494a9e6c48f641c325a,
         type: 3}
@@ -194,6 +565,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1249744868}
+    - targetCorrespondingSourceObject: {fileID: 978230566081628765, guid: c978b786dc6c0494a9e6c48f641c325a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1249744870}
   m_SourcePrefab: {fileID: 100100000, guid: c978b786dc6c0494a9e6c48f641c325a, type: 3}
 --- !u!4 &183078740 stripped
 Transform:
@@ -696,6 +1071,51 @@ PrefabInstance:
       propertyPath: m_BlendShapeWeights.Array.data[28]
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 2953108574924750851, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953108574924750851, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 1.110222e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953108574924750851, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 8.4743547e-19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953108574924750851, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -2.4541092e-20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326220657051924560, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326220657051924560, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 1.110222e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326220657051924560, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 8.4743547e-19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326220657051924560, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -2.4541092e-20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7038382090663792101, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -711,14 +1131,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 939928031}
+    - targetCorrespondingSourceObject: {fileID: 3742407835892290726, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 183078740}
     - targetCorrespondingSourceObject: {fileID: -6385604510746201906, guid: 0aac9c6e4d35c7d45bae250db966004f,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1864254417}
-    - targetCorrespondingSourceObject: {fileID: 902978311734085834, guid: 0aac9c6e4d35c7d45bae250db966004f,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 183078740}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0aac9c6e4d35c7d45bae250db966004f,
         type: 3}
@@ -756,6 +1176,22 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 319979463}
+    - targetCorrespondingSourceObject: {fileID: 7038382090663792101, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 176014024}
+    - targetCorrespondingSourceObject: {fileID: 7038382090663792101, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 176014025}
+    - targetCorrespondingSourceObject: {fileID: 7038382090663792101, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 176014026}
+    - targetCorrespondingSourceObject: {fileID: 7038382090663792101, guid: 0aac9c6e4d35c7d45bae250db966004f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 176014027}
   m_SourcePrefab: {fileID: 100100000, guid: 0aac9c6e4d35c7d45bae250db966004f, type: 3}
 --- !u!1 &319979457 stripped
 GameObject:
@@ -831,8 +1267,8 @@ MonoBehaviour:
     eyeMovement:
       confidence: 0.5
       excitement: 0.5
-    leftEye: {fileID: 0}
-    rightEye: {fileID: 0}
+    leftEye: {fileID: 636839693}
+    rightEye: {fileID: 636839692}
     eyesLookingStraight:
       linked: 1
       left: {x: 0, y: 0, z: 0, w: 1}
@@ -1235,6 +1671,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 319979456}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &636839692 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2953108574924750851, guid: 0aac9c6e4d35c7d45bae250db966004f,
+    type: 3}
+  m_PrefabInstance: {fileID: 319979456}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &636839693 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3326220657051924560, guid: 0aac9c6e4d35c7d45bae250db966004f,
+    type: 3}
+  m_PrefabInstance: {fileID: 319979456}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &693813602
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,30 +1869,35 @@ PrefabInstance:
       propertyPath: m_Name
       value: DinoBird_Follower
       objectReference: {fileID: 0}
+    - target: {fileID: 3494612014914040377, guid: 4862aea9fde06494c8118f82a5a54460,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4707643588956498286, guid: 4862aea9fde06494c8118f82a5a54460,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.000000813678
+      value: -0.0000008145935
       objectReference: {fileID: 0}
     - target: {fileID: 4707643588956498286, guid: 4862aea9fde06494c8118f82a5a54460,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.988037
+      value: 5.1468534
       objectReference: {fileID: 0}
     - target: {fileID: 4707643588956498286, guid: 4862aea9fde06494c8118f82a5a54460,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.04611422
+      value: -0.046165973
       objectReference: {fileID: 0}
     - target: {fileID: 4707643588956498286, guid: 4862aea9fde06494c8118f82a5a54460,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9914988
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4707643588956498286, guid: 4862aea9fde06494c8118f82a5a54460,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.13011613
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4707643588956498286, guid: 4862aea9fde06494c8118f82a5a54460,
         type: 3}
@@ -1454,7 +1907,7 @@ PrefabInstance:
     - target: {fileID: 4707643588956498286, guid: 4862aea9fde06494c8118f82a5a54460,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4877141305429669255, guid: 4862aea9fde06494c8118f82a5a54460,
         type: 3}
@@ -1549,7 +2002,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3494612014914040377, guid: 4862aea9fde06494c8118f82a5a54460,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1634217623}
   m_SourcePrefab: {fileID: 100100000, guid: 4862aea9fde06494c8118f82a5a54460, type: 3}
 --- !u!4 &939928031 stripped
 Transform:
@@ -1875,6 +2332,90 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1249744870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249744866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1286.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 952741749627027459
+  references:
+    version: 2
+    RefIds:
+    - rid: 952741749627027459
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Point Light
+        state:
+          actions:
+          - rid: 952741749627027462
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 952741749627027462
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 1249744866}
+        mode: 0
 --- !u!4 &1256588027 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1473415486156436883, guid: 0aac9c6e4d35c7d45bae250db966004f,
@@ -2851,6 +3392,96 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -23.48, y: 180, z: 0}
+--- !u!1 &1634217622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3494612014914040377, guid: 4862aea9fde06494c8118f82a5a54460,
+    type: 3}
+  m_PrefabInstance: {fileID: 939928030}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1634217623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634217622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1286.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 952741749627027458
+  references:
+    version: 2
+    RefIds:
+    - rid: 952741749627027458
+      type: {class: Toggle, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        name: Dinobird
+        state:
+          actions:
+          - rid: 952741749627027460
+        saved: 0
+        slider: 0
+        sliderInactiveAtZero: 0
+        securityEnabled: 0
+        defaultOn: 1
+        includeInRest: 0
+        exclusiveOffState: 0
+        enableExclusiveTag: 0
+        exclusiveTag: 
+        resetPhysbones: []
+        hasExitTime: 0
+        enableIcon: 0
+        icon:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        enableDriveGlobalParam: 0
+        driveGlobalParam: 
+        separateLocal: 0
+        localState:
+          actions: []
+        hasTransition: 0
+        transitionStateIn:
+          actions: []
+        transitionStateOut:
+          actions: []
+        transitionTimeIn: 0
+        transitionTimeOut: 0
+        localTransitionStateIn:
+          actions: []
+        localTransitionStateOut:
+          actions: []
+        localTransitionTimeIn: 0
+        localTransitionTimeOut: 0
+        simpleOutTransition: 1
+        defaultSliderValue: 0
+        useGlobalParam: 0
+        globalParam: 
+        holdButton: 0
+        invertRestLogic: 0
+        expandIntoTransition: 1
+    - rid: 952741749627027460
+      type: {class: ObjectToggleAction, ns: VF.Model.StateAction, asm: VRCFury}
+      data:
+        version: 1
+        desktopActive: 0
+        androidActive: 0
+        localOnly: 0
+        remoteOnly: 0
+        obj: {fileID: 1634217622}
+        mode: 0
 --- !u!1 &1719126382 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6823650616118074985, guid: 0aac9c6e4d35c7d45bae250db966004f,
@@ -3594,6 +4225,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1754788892 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3742407835892290726, guid: 0aac9c6e4d35c7d45bae250db966004f,
+    type: 3}
+  m_PrefabInstance: {fileID: 319979456}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1864254416
 PrefabInstance:
   m_ObjectHideFlags: 0
