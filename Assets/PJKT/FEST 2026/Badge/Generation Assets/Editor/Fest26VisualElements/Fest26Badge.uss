@@ -1,0 +1,16 @@
+.generate-button {
+    background-color: rgb(255, 196, 40);
+    scale: 1 1;
+    transition-property: scale, background-color;
+    transition-duration: 0.15s, 0.15s;
+    transition-timing-function: ease-out;
+}
+
+.generate-button:hover {
+    scale: 1.06 1.06;
+    background-color: rgb(255, 215, 90);
+}
+
+.generate-button:active {
+    scale: 0.97 0.97;
+}
