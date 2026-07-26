@@ -1315,7 +1315,7 @@ MonoBehaviour:
   blueprintId: avtr_d94598af-e478-46c9-ab48-5ff2d40665e4
   contentType: 0
   assetBundleUnityVersion: 
-  fallbackStatus: 1
+  fallbackStatus: 0
 --- !u!114 &319979459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4036,7 +4036,7 @@ MonoBehaviour:
         localOnly: 0
         remoteOnly: 0
         obj: {fileID: 1634217622}
-        mode: 1
+        mode: 0
 --- !u!1 &1719126382 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6823650616118074985, guid: 0aac9c6e4d35c7d45bae250db966004f,
